@@ -2,6 +2,11 @@ package array
 
 fun findMaxMinInArray(arr:Array<Int>){
 
+    if(arr.isEmpty()){
+        println("Array is empty")
+        return
+    }
+
     var max = arr[0]
     var min = arr[0]
 
